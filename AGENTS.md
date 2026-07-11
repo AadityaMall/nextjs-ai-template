@@ -10,10 +10,6 @@ repository. Read this entire file before writing any code. No exceptions.
 | Task                              | Read first                              |
 | --------------------------------- | --------------------------------------- |
 | Adding or using a shadcn component | .agents/skills/shadcn/SKILL.md         |
-| Writing any Tailwind classes       | .agents/skills/tailwind/SKILL.md       |
-| Adding dark mode to a component    | .agents/skills/dark-mode/SKILL.md      |
-| Adding any animation               | .agents/skills/framer-motion/SKILL.md  |
-| Making an API call                 | src/services/base.ts                   |
 | Adding a new type                  | src/types/                             |
 | Adding a new service               | src/services/                          |
 
@@ -256,7 +252,6 @@ console.error(error)
 
 ## What Not To Do
 
-- Do not install axios. `base.ts` handles fetch.
 - Do not edit `src/components/ui/`. Shadcn-managed.
 - Do not edit `src/lib/`. Third party-managed.
 - Do not use inline `style={{}}`. Tailwind only.
